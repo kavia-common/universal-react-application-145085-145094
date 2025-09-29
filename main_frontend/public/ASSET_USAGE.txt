@@ -1,0 +1,16 @@
+Static images referenced by the OurSolutionSkilltest component are expected at /assets/.
+Make sure to copy the required PNGs from the root-level assets/figmaimages directory to this app's public/assets directory so React can serve them.
+
+Example (paths relative to repository root):
+- From: assets/figmaimages/figma_image_2218_5203.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5203.png
+- From: assets/figmaimages/figma_image_2218_5332.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5332.png
+- From: assets/figmaimages/figma_image_2218_5346.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5346.png
+- From: assets/figmaimages/figma_image_2218_5353.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5353.png
+- From: assets/figmaimages/figma_image_2218_5405.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5405.png
+- From: assets/figmaimages/figma_image_2218_5285.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5285.png
+- From: assets/figmaimages/figma_image_2218_5339.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5339.png
+- From: assets/figmaimages/figma_image_2218_5342.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5342.png
+- From: assets/figmaimages/figma_image_2218_5343.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5343.png
+- From: assets/figmaimages/figma_image_2218_5344.png  ->  To: universal-react-application-145085-145094/main_frontend/public/assets/figma_image_2218_5344.png
+
+If your design references different images, copy them similarly to public/assets and update the component's img src paths accordingly.
